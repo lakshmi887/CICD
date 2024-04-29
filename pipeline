@@ -1,0 +1,12 @@
+pipeline {
+  agent {
+      node {
+        label 'SLAVE01'
+           }
+  }
+  tools {
+    maven 'mavne3'
+    }
+  options {
+  
+        
